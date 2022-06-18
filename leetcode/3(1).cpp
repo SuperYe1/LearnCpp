@@ -27,7 +27,7 @@ int lengthOfLongestSubstring(string s)
 
 int main()
 {
-
+    cout<<"yechao\n"<<endl;
     system("pause");
     return 0;
 }
