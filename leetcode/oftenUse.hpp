@@ -4,6 +4,13 @@
 #include <stack>
 #include <string.h>
 #include <vector>
+#include <algorithm>
+#include <numeric>
+#include <map>
+#include <unordered_map>
+#include <set>
+#include <unordered_set>
+#include <queue>
 using namespace std;
 
 struct ListNode
@@ -29,7 +36,7 @@ struct TriNode
     int pass;
     bool isEnd;
     TriNode *next[26];
-    TriNode() : pass(0), isEnd(false), next({nullptr}) {}
+    TriNode() : pass(0), isEnd(false), next{nullptr} {}
 };
 
 class PrefixTree
